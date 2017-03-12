@@ -6,7 +6,11 @@ body {
 
 #menu {
     width: 100%;
-    height: 100px;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 li>a {
@@ -27,21 +31,6 @@ ul>li:nth-child(1) {
     margin-left: 40%;
 }
 
-/*
-ul>li:nth-child(2) {
-    left:0;
-    right:0;
-    margin: auto;
-}
-
-ul>li:nth-child(1) {
-    left:44%;
-}
-
-ul>li:nth-child(3) {
-    left:54%;
-}*/
-
 header {
     position:relative;
     margin:0;
@@ -57,8 +46,8 @@ header>img {
     position: absolute;
     left:0;
     right:0;
-    margin:auto;
-    top: 600px;
+    margin:0 auto;
+    top: 50%;
     
     text-transform: uppercase;
     font-size: 50px;
