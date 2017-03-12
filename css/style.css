@@ -22,17 +22,31 @@ li>a {
 }
 
 ul>li:nth-child(2) {
-    left:50%;
+    left:0;
+    right:0;
+    margin: auto;
 }
 
 ul>li:nth-child(1) {
-    left:45%;
+    left:44%;
 }
 
 ul>li:nth-child(3) {
-    left:55%;
+    left:54%;
 }
 
 header {
     position:relative;
+}
+
+#main-header-text {
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    top: 600px;
+    
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
 }
